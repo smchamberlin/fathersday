@@ -1,0 +1,5 @@
+applications:
+- name: fathersday 
+  random-route: true
+  memory: 256M
+  command: npx serve -s build 

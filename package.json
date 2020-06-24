@@ -1,0 +1,36 @@
+{
+  "name": "qr-poc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "carbon-components": "^10.3.2",
+    "carbon-components-react": "^7.3.2",
+    "qrcode.react": "^0.9.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "tone": "^13.8.25"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "cp -r build/static/* ../app/static/ && cp build/index.html ../app/templates"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
