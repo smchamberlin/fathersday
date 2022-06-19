@@ -21,6 +21,8 @@ Steps:
 
 ## Deploy to Cloud
 
-Details forthcoming
-
+- Download CLI: `curl -fsSL https://clis.cloud.ibm.com/install/osx | sh`
+- Login: `ibmcloud login --sso` then `ibmcloud target --cf`
+- Push: `ibmcloud cf push`
+- Update route: `ibmcloud app route-map fathersday mybluemix.net -n fathersday`
 

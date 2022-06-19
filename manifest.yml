@@ -1,5 +1,5 @@
 applications:
 - name: fathersday 
-  random-route: true
+  route: fathersday.mybluemix.net 
   memory: 256M
   command: npx serve -s build 
